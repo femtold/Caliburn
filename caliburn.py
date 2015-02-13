@@ -6,8 +6,9 @@ import argparse
 import ConfigParser
 import msvcrt
 import sys
+import logger
 
-def print_banner():
+def print_banner(logger):
     pass
 
 def main():
@@ -26,7 +27,9 @@ def main():
     parser.add_argument("--echo", dest="echo", action="store_true")
     
     args = parser.parse_args()
-    print_banner()
+    
+    logger = 
+    print_banner(logger)
     
     ####################################
     ##  Parse the configuration file  ##
